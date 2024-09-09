@@ -4,12 +4,15 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
     <!-- Referencia de la hoja de estilo de Css -->
     <link rel="stylesheet" href="style.css">
+
+    <!-- Fonte del Proyecto Raleway -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <!-- Fonte del Proyecto Raleway -->
     <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@500&display=swap" rel="stylesheet">
+    
     <title> Mi Portafolio</title>
 </head>
 <body>
@@ -17,17 +20,19 @@
     <div class="tudo">
     <section class="menu">
         <header class="menu__header">
-            <img src="assets\vector.png" alt="Logo">
+            <img class="menu__logo" src="assets\vector.png" alt="Logo"><!---Cambiar logo-->
             <h3 class="menu__title">Joseph Poveda Flores</h3>
+            
+            <!--<button class="menu__theme" data-theme-btn></button>-->
         </header>
-        <nav>
+        <nav class="menu_nav">
             <ul class="menu__list">
-                <li class="menu__list__item"><a href="#sobre-mi">Sobre mi</a></li>
-                <li class="menu__list__item"><a href="#skills">Skills</a></li>
-                <li class="menu__list__item"><a href="#hobbies">Hobbies</a></li>
-                <li class="menu__list__item"><a href="#formacion">Formación</a></li>
-                <li class="menu__list__item"><a href="#xp">Proyectos</a></li>
-                <li class="menu__list__item"><a href="#contacto">josephpf012@gmail.com</a></li>
+                <li class="menu__list__item"><a class="menu__link" href="#sobre-mi">Sobre mi</a></li>
+                <li class="menu__list__item"><a class="menu__link" href="#skills">Skills</a></li>
+                <li class="menu__list__item"><a class="menu__link" href="#hobbies">Hobbies</a></li>
+                <li class="menu__list__item"><a class="menu__link" href="#formacion">Formación</a></li>
+                <li class="menu__list__item"><a class="menu__link" href="#xp">Proyectos</a></li>
+                <li class="menu__list__item"><a class="menu__link" href="#contacto">josephpf012@gmail.com</a></li>
             </ul>
             <li class="menu__list__item__contato"><a href="#contacto">josephpf012@gmail.com</a></li>
         </nav>
@@ -39,13 +44,13 @@
             <img class="title__profile" src="assets\Joseph.jpg" alt="Imagen de perfil">
             <div class="title__container">
                 <h2 class="title__bio">Hola, mi nombre es Joseph Poveda Flores y construyo paginas web</h2>
-                <h3 class="title__subsection">Soy formada en Tecnologías de la Información y actualmente estoy participando del proyecto Oracle ONE en Alura Latam. Además que me estoy formando en Blockchain y Web3.</h3>
+                <h3 class="title__subsection">Soy formado en Tecnologías de la Información y participé del proyecto Oracle ONE en Alura Latam. Además que me estoy formando en Blockchain y Web3.</h3>
                 <ul class="title__network">
                      <!-- Pon los enlaces de tus redes sociales favoritas -->
-                    <li class="title__network__item"><a href="">Github <img src="assets\arrow.png"> </a></li>
-                    <li class="title__network__item"><a href="">Linkedin <img src="assets\arrow.png"></a></li>
-                    <li class="title__network__item"><a href="">Instagram <img src="assets\arrow.png"></a></li>
-                    <li class="title__network__item"><a href="">Currículo <img src="assets\arrow.png"></a></li>
+                    <li class="title__network__item"><a href="https://github.com/josephpdf/">Github <img src="assets\arrow.png"> </a></li>
+                    <li class="title__network__item"><a href="https://www.linkedin.com/in/joseph-poveda-flores">Linkedin <img src="assets\arrow.png"></a></li>
+                    <!--<li class="title__network__item"><a href="">Instagram <img src="assets\arrow.png"></a></li>-->
+                    <li class="title__network__item"><a href="assets/docs/Curriculum Vitae Joseph Largo.pdf">Currículo <img src="assets\arrow.png"></a></li>
                 </ul>
             </div>
         </div>
@@ -68,35 +73,35 @@
             <div class="skills__line">
                 <div class="skills__box">
                     <ul>
-                        <li class="skills__img"><img src="assets\htlm.png"></li>
+                        <li class="skills__img"><img src="assets\htlm.png" alt="HTML5"></li><!---data-skill-img="0-->
                         <li class="skills__name"> HTML 5</li>
                     </ul>
                 </div>
 
                 <div class="skills__box">
                     <ul>
-                        <li class="skills__img"> <img src="assets\js_icon.png" alt=""></li>
+                        <li class="skills__img"> <img src="assets\js_icon.png" alt="JavaScript"></li>
                         <li class="skills__name">Javascript</li>
                     </ul>
                 </div>
 
                 <div class="skills__box">
                     <ul>
-                        <li class="skills__img"> <img src="assets\php_icon.png" alt=""></li>
+                        <li class="skills__img"> <img src="assets\php_icon.png" alt="PHP"></li>
                         <li class="skills__name">PHP</li>
                     </ul>
                 </div>
 
                 <div class="skills__box">
                     <ul>
-                        <li class="skills__img"><img src="assets\nodejs_icon.png" alt=""></li>
+                        <li class="skills__img"><img src="assets\nodejs_icon.png" alt="NodeJS"></li>
                         <li class="skills__name">Node JS</li>
                     </ul>
                 </div>
 
                 <div class="skills__box">
                     <ul>
-                        <li class="skills__img"> <img src="assets\react_icon.png" alt=""> </li>
+                        <li class="skills__img"> <img src="assets\react_icon.png" alt="React"> </li>
                         <li class="skills__name">React</li>
                     </ul>
                 </div>
@@ -116,42 +121,42 @@
             <div class="hobbies__line">
                 <div class="hobbies__box">
                     <ul>
-                        <li class="hobbies__img"><img src="assets\skate_icon.png"></li>
+                        <li class="hobbies__img"><img src="assets\skate_icon.png" alt="Skate"></li><!---data-hobbie-img="0"-->
                         <li class="hobbies__name"> Patinaje</li>
                     </ul>
                 </div>
 
                 <div class="hobbies__box">
                     <ul>
-                        <li class="hobbies__img"> <img src="assets\guitar_icon.png" alt=""></li>
+                        <li class="hobbies__img"> <img src="assets\guitar_icon.png" alt="Guitar"></li>
                         <li class="hobbies__name">Tocar bajo</li>
                     </ul>
                 </div>
 
                 <div class="hobbies__box">
                     <ul>
-                        <li class="hobbies__img"> <img src="assets\headphones_icon.png" alt=""></li>
+                        <li class="hobbies__img"> <img src="assets\headphones_icon.png" alt="Music"></li>
                         <li class="hobbies__name">Oir música</li>
                     </ul>
                 </div>
 
                 <div class="hobbies__box">
                     <ul>
-                        <li class="hobbies__img"><img src="assets\tv_icon.png" alt=""></li>
+                        <li class="hobbies__img"><img src="assets\tv_icon.png" alt="Series"></li>
                         <li class="hobbies__name">Ver séries</li>
                     </ul>
                 </div>
 
                 <div class="hobbies__box">
                     <ul>
-                        <li class="hobbies__img"> <img src="assets\forkspoon_icon.png" alt=""> </li>
+                        <li class="hobbies__img"> <img src="assets\forkspoon_icon.png" alt="Cook"> </li>
                         <li class="hobbies__name">Cocinar</li>
                     </ul>
                 </div>
 
                 <div class="hobbies__box">
                     <ul>
-                        <li class="hobbies__img"> <img src="assets\camera_icon.png" alt=""> </li>
+                        <li class="hobbies__img"> <img src="assets\camera_icon.png" alt="Photos"> </li>
                         <li class="hobbies__name">Tomar fotos</li>
                     </ul>
                 </div>
@@ -167,7 +172,7 @@
                     <!-- Pon el logotipo de la institución de formación -->
                     <li class="academic__courses__item__img"><img src="assets\CUC_1.png" alt="CUC"></li>
                     <li class="academic__courses__item__title"><h4>Tecnologías de la Información</h4></li>
-                    <li class="academic__courses__item__subtitle"><p>2024 - Colegio Universitario de Cartago</p></li>
+                    <li class="academic__courses__item__subtitle"><a href="" target="_blank"><p>2024 - Colegio Universitario de Cartago</p></a></li>
                 </ul>
             </div>
             <div class="academic__courses__box">
@@ -196,7 +201,7 @@
         <div class="experiencie__box">
             <!-- Pon el logotipo/captura de pantalla de tu proyecto
             <img class="experience__img" src="assets\decod_print.png">
-            <div class="experience__info"
+            <div class="experience__info__container"
                 <h2 class="experience__title">Encriptador de texto</h2>
                 <h3 class="experience__text">Challenge Alura Codificador </h3>
                     <div class="experience__description">
@@ -211,7 +216,7 @@
         <div class="experiencie__box">
             <!-- Pon el logotipo/captura de pantalla de tu proyecto
             <img class="experience__img" src="assets\forca_print.png">
-            <div class="experience__info"
+            <div class="experience__info__container"
                 <h2 class="experience__title">Juego creado con HTML y JavaScript</h2>
                 <h3 class="experience__text">Challenge Oracle </h3>
                     <div class="experience__description">
@@ -225,7 +230,7 @@
         <div class="experience__box">
             <!-- Pon el logotipo/captura de pantalla de tu proyecto -->
             <img class="experience__img" src="assets\Encriptador.png" alt="Encriptador">
-            <div class="experience__info-container">
+            <div class="experience__info__container">
                 <h2 class="experience__title">Encriptador de texto</h2>
                 <h3 class="experience__text">Challenge Alura Latam </h3>
                     <div class="experience__description">
@@ -239,7 +244,7 @@
 
         <div class="experience__box">
             <img class="experience__img" src="assets\VueApp.png" alt="VueApp">
-            <div class="experience__info-container">
+            <div class="experience__info__container">
             <h2 class="experience__title">Recetario</h2>
                 <h3 class="experience__text">Taller Universitario</h3>
                     <div class="experience__description">
@@ -255,18 +260,46 @@
         <section class="formcontato" id="contacto">
             <div  class="formcontato__contacto">
                 <div class="formcontato--esquerda">
-                    <img class="formcontato__img" src="assets\contact_image.png">
+                    <img class="formcontato__img" src="assets\contact_image.png" alt="Contacto">
                 </div>
                 <div class="formcontato__text">
                     <h2 class="formcontato__title">Contacto</h2>
                     <h3 class="formcontato__subtext">¿Quieres contactarme?</h3>
                     <h3 class="formcontato__subtext">Complete el siguiente formulario y me pondré en contacto con usted lo antes posible. </h3>
-                    <form class="formcontato__form" name="form" action="https://formsubmit.co/josephpf012@gmil.com" method="POST">
-                        <input class="formcontato__input" type="text" name="nombre" placeholder="Nombre">
-                        <input class="formcontato__input" type="email" name="email" placeholder="E-mail">
-                        <input class="formcontato__input" type="text" name="asunto" placeholder="Assunto">
-                        <textarea class="formcontato__textarea" rows="5" cols="40" id="mensagem" name="mensaje" placeholder="Mensaje"></textarea>
-                        <button type="submit" class="formcontato__botao">Enviar mensaje</button>
+                    <form class="formcontato__form" name="form" autocomplete="off">
+                        <div class="formcontato__container">
+                            <input class="formcontato__input" type="text" name="nombre" id="nombre" placeholder=" "
+                                tabindex="1" required autocomplete="off" minlength="1" maxlength="10"
+                                data-tipo="nombre">
+                            <label class="formcontato__label" for="nombre"><span>Nombre</span></label>
+                            <span class="formcontato__message__error" data-error></span>
+                        </div>
+
+                        <div class="formcontato__container">
+                            <input class="formcontato__input" type="email" name="email" id="email" placeholder=" "
+                                tabindex="2" required autocomplete="off"
+                                pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$" data-tipo="email">
+                            <label class="formcontato__label" for="email"><span>E-mail</span></label>
+                            <span class="formcontato__message__error" data-error></span>
+                        </div>
+
+                        <div class="formcontato__container">
+                            <input class="formcontato__input" type="text" name="asunto" id="asunto" placeholder=" "
+                                tabindex="3" required autocomplete="off" minlength="1" maxlength="80"
+                                data-tipo="asunto">
+                            <label class="formcontato__label" for="asunto"><span>Asunto</span></label>
+                            <span class="formcontato__message__error" data-error></span>
+                        </div>
+
+                        <div class="formcontato__container">
+                            <textarea class="formcontato__textarea" rows="5" cols="40" id="mensaje" name="mensaje"
+                                placeholder=" " tabindex="4" required autocomplete="off" minlength="1"
+                                maxlength="100" data-tipo="mensaje"></textarea>
+                            <label class="formcontato__label" for="mensaje"><span>Mensaje</span></label>
+                            <span class="formcontato__message__error" data-error></span>
+                        </div>
+
+                        <button type="submit" class="formcontato__boton">Enviar mensaje</button>
                     </form>
                 </div>
             </div>
@@ -280,7 +313,8 @@
             </div>
         </section>
     </div>
+
  <!-- Script del documento JavaScript -->
-<script src="validacion.js"></script>
+    <script src="validacion.js"></script>
 </body>
 </html>
