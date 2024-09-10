@@ -1,0 +1,31 @@
+.title__div {
+    display: flex;
+    align-items: center;
+    text-align: justify;
+}
+
+@media screen and (min-width:0px) {
+    .title__div {
+        flex-flow: column;
+
+    }
+}
+
+@media screen and (min-width:768px) {
+    .title__div {
+        flex-direction: row-reverse;
+        justify-content: space-between;
+    }
+}
+
+@media screen and (min-width:1080px) {
+    .title__div { 
+        flex-direction: row-reverse;
+    }
+}
+
+@media screen and (min-width:1440px) {
+    .title__div {
+        flex-direction: row-reverse;
+    }
+}

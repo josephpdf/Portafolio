@@ -1,0 +1,30 @@
+.title__network {
+    display: flex;
+    justify-content: flex-start;
+}
+
+@media screen and (min-width:0) {
+    .title__network {
+        margin-block-end: 1.6rem;
+    }
+}
+@media screen and (min-width:768px) {
+    .title__network {
+        margin-bottom: 4.25rem;
+    }
+}
+
+@media screen and (min-width:1080px) {
+    .title__network {
+        margin-bottom: 9.55rem;
+    }
+
+}
+
+@media screen and (min-width:1440) {
+    .title__network {
+        margin-bottom: 9.55rem;
+
+    }
+}
+

@@ -1,9 +1,9 @@
-section.tittle {
+section.title {
     display: flex;
 }
 
 @media screen and (min-width:0px) {
-    section.tittle  {
+    section.title  {
         margin-inline-start: 1.2rem;
         margin-inline-end: 1.2rem;
         margin-block-start: 5.85rem;
@@ -11,7 +11,7 @@ section.tittle {
 }
 
 @media screen and (min-width:768px) {
-    section.tittle  {
+    section.title  {
         margin-inline-start: 3.2rem;
         margin-inline-end: 3.2rem; 
         margin-block-start: 3.45rem;
@@ -19,7 +19,7 @@ section.tittle {
 }
 
 @media screen and (min-width:1080px) {
-    section.tittle  {
+    section.title  {
         margin-inline-start: 3.2rem;
         margin-inline-end: 3.2rem;
         margin-block-start: 6.65rem;
@@ -29,7 +29,7 @@ section.tittle {
 }
 
 @media screen and (min-width:1440px) {
-    section.tittle  {
+    section.title  {
         margin-inline-start: 15.2rem;
         margin-inline-end: 15.2rem; 
         margin-block-start: 6.65rem;
